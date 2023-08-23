@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Orbitron&display=swap");
+.container {
+  padding: 20px;
+  width: 600px;
+  height: 643px;
+
+  background-color: rgb(148, 139, 140);
+  border-radius: 20px;
+}
+
+.container > .displayArea {
+  background-color: #bebea4;
+  height: 120px;
+  margin: 30px;
+  box-shadow: 1px 2px 3px 5px rgba(20, 20, 20, 0.4);
+  border-radius: 10px;
+  color: black;
+  font-family: "Lora", serif;
+
+  width: 540px;
+}
+.container > .displayArea > p {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Orbitron", sans-serif;
+  text-align: right;
+  padding: 25px 20px;
+}
+
+.container1 {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 100px;
+}
+
+.container > .container1 > .item1,
+.container > .container1 > .item2,
+.container > .container1 > .item3,
+.container > .container1 > .item4 {
+  flex-flow: row nowrap;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 25px;
+  margin-left: 30px;
+  border-radius: 15%;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+.container > .container1 > .item4 {
+  flex-flow: row nowrap;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: -80px;
+  margin-left: -86px;
+  border-radius: 15%;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+.container > .container1 > .item1 > button,
+.container > .container1 > .item2 > button,
+.container > .container1 > .item3 > button,
+.container > .container1 > .item4 > button {
+  height: 80px;
+  width: 90px;
+  border-radius: 10px;
+  font-size: 50px;
+  flex: 1;
+  margin-right: 20px;
+  margin-left: -8px;
+}
+#AC {
+  background-color: lightsalmon;
+}
+.container > .container1 > .item4 > button {
+  height: 80px;
+  width: 90px;
+  border-radius: 10px;
+  font-size: 50px;
+  flex: 1;
+  margin-right: 19px;
+  margin-bottom: 400px;
+}
+
+#equals{
+  padding-bottom: 175px;
+  margin-top: 5px;
+  padding-top: 10px;
+  background-color: darkorange;
+}
+button:hover{
+  background-color: mediumturquoise;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caluclator</title>
+    <link rel="shortcut icon" href="assets/images/fevicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+</head>
+<body>
+  <center>
+    <h1>
+    My Calculator 
+   </h1>
+  </center>  
+  <hr>
+ <center>
+  <form onsubmit="myCalc(event)">
+    <div class="container">
+      <div class="displayArea"> 
+        
+       </div>
+      <section class="container1">
+  
+       <div class="item1">
+         <button type="button" id="7" onclick="displayBox(7)">7</button>
+         <button type="button" id="8">8</button>
+         <button type="button" id="9">9</button>
+         <button type="button" id="%">%</button>
+         <button type="reset" id="AC">AC</button>
+       </div>
+       <div class="item2">
+        <button type="button" id="4">4</button>
+         <button type="button" id="5">5</button>
+         <button type="button" id="6">6</button>
+         <button type="button" id="+">+</button>
+         <button type="button" id="/">/</button>
+       </div>
+       <div class="item3">
+        <button type="button" id="1">1</button>
+         <button type="button" id="2">2</button>
+         <button type="button" id="3">3</button>
+         <button type="button" id="*">*</button>
+         <button type="submit" id="equals">=</button>
+       </div>
+       <div class="item4">
+        <button type="button" id="0">0</button>
+         <button type="button" id="00">00</button>
+         <button type="button" id=".">.</button>
+         <button type="button" id="-">-</button>
+         
+       </div>
+      </section>
+  </div>
+  </form>
+ </center>
+<script>
+  function displayBox(temp){
+  document.getElementById("displayArea").innerHTML = temp;
+}
+</script>
+</body>
+</html>
